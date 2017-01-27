@@ -1,0 +1,10 @@
+##### BAT – DESCOMPACTAÇÃO - [7z.bat]
+D:
+CD D:\cliente\Relatorios\FILE_CAR\
+SET app=C:\Program Files\7-Zip\
+"%app%7z.exe" x %1
+##### BAT – TESTE DE DESCOMPACTAÇÃO - [7z_Teste.bat]
+D:
+CD D:\cliente \Relatorios\FILE_CAR\
+7z.bat 20160826.txt
+Pause
